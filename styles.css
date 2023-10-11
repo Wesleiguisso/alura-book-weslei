@@ -1,6 +1,11 @@
-@import url(style/banner.css);
+
+
 @import url(style/header.css);
+@import url(style/banner.css);
 @import url(style/carrossel.css);
+@import url(style/topicos.css);
+@import url(style/rodapé.css);
+@import url(style/contato.css);
 :root{
     --cor-de-fundo:#EBECEE;/*colocar todas as cores na aula 2*/
     --branco: #ffffff;
@@ -10,10 +15,12 @@
     --preto: #000000;
     --cinza: #474646;
     --cinza-claro: #858585;
+    --azul: #002f52;
+
 }
 
-
 body{
+    font-family: 'Young Serif', serif;
     background-color: var(--cor-de-fundo);
 }
 
